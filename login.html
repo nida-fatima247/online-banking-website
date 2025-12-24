@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | ApnaBank</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="login-page">
+
+  <!-- Simple Auth Header -->
+
+<div class="auth-header">
+            <div class="logo">
+                <div class="logo-icon">AB</div>
+                <span>ApnaBank</span>
+        </div>
+</div>
+
+  <!-- Login Container -->
+  <main class="auth-container">
+    <h2>Login to Your Account</h2>
+    <p class="auth-subtext">Welcome back! Please enter your details.</p>
+
+    <form class="auth-form">
+
+      <!-- Username -->
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter email or phone number"
+          required
+        />
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label for="password">Password</label>
+
+        <div class="password-wrapper">
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter password"
+            required
+          />
+        </div>
+      </div>
+
+      <!-- Show Password -->
+      <div class="form-options">
+        <label class="show-password">
+          <input type="checkbox" />
+          Show Password
+        </label>
+
+        <a href="#" class="forgot-link">Forgot Password?</a>
+      </div>
+
+      <!-- Login Button -->
+      <button type="submit" class="btn-primary full-width">
+        Login
+      </button>
+
+    </form>
+
+    <!-- Signup Redirect -->
+    <p class="auth-footer">
+      Don’t have an account?
+      <a href="signup.html">Sign Up</a>
+    </p>
+  </main>
+
+</body>
+</html>
